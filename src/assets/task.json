@@ -1,0 +1,41 @@
+[
+	
+    {
+       "id":"1",
+       "title": "task1",
+       "input":"anything",
+       "description":"Explanation of task1",
+       "type":"type1",
+       "progress":"cureent progress",
+       "endingdate":"2021-02-12",
+       "endingtime":"2pm",
+       "empid":"2"
+       
+    },
+  
+    {
+        "id":"2",
+       "title": "task2",
+       "input":"anything",
+       "description":"Explanation of task2",
+       "type":"type1",
+       "progress":"cureent progress",
+       "endingdate":"2021-02-14",
+       "endingtime":"8pm",
+       "empid":"1"
+       
+        
+    },
+{
+        "id":"3",
+       "title": "task3",
+       "input":"anything",
+       "description":"Explanation of task3",
+       "type":"type3",
+       "progress":"cureent progress",
+       "endingdate":"2021-02-10",
+       "endingtime":"10am",
+       "empid":"2"
+    
+    }
+ ]

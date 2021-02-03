@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AddTask</title>
+</head>
+<body>
+  <div class="container-fluid body-main">
+  <div class="container-fluid">
+    <div class="row" style="margin-top: 10px;">
+      <div class="col-md-9 col border border-secondary" style="background-color: cadetblue;">
+          <app-navbar></app-navbar>
+      </div>
+      <div class="col-md-3 col border border-secondary" style="background-color: white;">
+        <br><h3 style="a">My Portfolio</h3><br>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 2px;">
+      <div class="col-md-9 col border border-secondary" style="background-color: white;">
+        <router-outlet></router-outlet>
+      </div>
+      <div class="col-md-3 col border border-secondary" style="background-color: white;">
+        <br>
+          <app-side-bar></app-side-bar>
+        <br>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="row" style="margin-top: 2px; margin-bottom: 2px;">
+      <div class="col-md-12 col border border-secondary" style="background-color: cadetblue;">
+        <app-bottom></app-bottom>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
